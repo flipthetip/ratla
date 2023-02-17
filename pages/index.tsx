@@ -96,8 +96,7 @@ const Home: NextPage = () => {
           </a>
           <br />
           <br />
- 
-        </div>
+      </div>
 
         
 

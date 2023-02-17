@@ -28,7 +28,7 @@ const BulkTransfer: NextPage = () => {
   const { connection } = useConnection()
   const [nfts, setNfts] = useState<Nft[]>([])
   const [sending, setSending] = useState<Nft[]>([])
-  const [to, setTo] = useState('65YFEeUXtZXbDmSqkEtYdgfdoVnwkQ4tqTPc4B9t1CnU')
+  const [to, setTo] = useState('7VGhCnHjnw5QqGt7Xou35E8uBf43FbYAPvr1q63CUG21')
   const [search, setSearch] = useState('The Shady Class')
   const [loading, setLoading] = useState<boolean>(false)
   const [feedbackStatus, setFeedbackStatus] = useState("")
@@ -80,7 +80,7 @@ const BulkTransfer: NextPage = () => {
       console.log('probably want to select some nfts')
       setLoading(false)
       setFeedbackStatus(`Please select exactly 5 NFTs to sacrifice.`)
-      return{
+      return {
         feedbackStatus,
       }
     }
@@ -157,7 +157,9 @@ const BulkTransfer: NextPage = () => {
         sending.map(n => {
           setNfts(nfts.filter(n => !sending.includes(n)))
           setFeedbackStatus("🐰 Sacrifice offered. Check Sacrifice Board later.")
+          
         })
+        
       } catch (e: any) {
         setFeedbackStatus("Error occured. Try again.")
         toast.error(e.message)
@@ -211,7 +213,7 @@ const BulkTransfer: NextPage = () => {
     } else {
       setNfts([])
       setSending([])
-      setTo('65YFEeUXtZXbDmSqkEtYdgfdoVnwkQ4tqTPc4B9t1CnU')
+      setTo('7VGhCnHjnw5QqGt7Xou35E8uBf43FbYAPvr1q63CUG21')
     }
   }, [publicKey?.toBase58()])
 
@@ -237,18 +239,18 @@ const BulkTransfer: NextPage = () => {
       <div className={styles.main}>
         <input id='my-drawer' type='checkbox' className='drawer-toggle' />
         <div className={styles.main}>
-        <Navbar sending={sending} />
-        {/* <div className={styles.pic}>
+          <Navbar sending={sending} />
+          {/* <div className={styles.pic}>
 
         </div> */}
-          
+
 
           <div className=' w-full text-center m-6'>
-          <div className={styles.pic}>
-          <div className='w-3/6 lg:w-2/6 mt-4'>
-              <img src='/porrtals.png' />
+            <div className={styles.pic}>
+              <div className='w-3/6 lg:w-2/6 mt-4'>
+                <img src='/porrtals.png' />
               </div>
-          </div>
+            </div>
             {!connected && (<h1>Shadies Check</h1>)}
             {connected && (<>
               {/* <h1 className='font-bold text-xs'>Wallet: {publicKey?.toBase58()}</h1> */}
@@ -276,6 +278,11 @@ const BulkTransfer: NextPage = () => {
             <h1 className='mr-10 ml-10 mt-4 mb-4 text-gray-600 '>STATUS : {feedbackStatus} </h1>
             <h1 className='mr-10 ml-10 mt-4 mb-4 text-red-500 text-md'>[ 1 Sacrifice per transaction. ] </h1>
           </div>
+
+          <div className='justify-center content-center'>
+            <a href="https://twitter.com/intent/tweet?screen_name=bunniezsol&ref_src=twsrc%5Etfw" className="twitter-mention-button" data-size="large" data-text="made me sacrifice my Shadies for Bunniez! #RIPSHADIES Go to [link] to sacrifice!" data-show-count="false">Tweet to #RIPSHADIES</a>
+          </div>
+          <br/>
           {/* <div className='w-full mb-6'>
             <input
               type='text'
@@ -371,9 +378,9 @@ const BulkTransfer: NextPage = () => {
 
 
 
-        <br/>
-        <br/>
-        <br/>
+          <br />
+          <br />
+          <br />
 
           {/* <div className='pl-auto text-center bg-red-700 w-full'>
         <a href="https://discord.gg/b39NXR6">
@@ -384,10 +391,10 @@ const BulkTransfer: NextPage = () => {
         </div>
 
       </div>
-            <a href="https://discord.gg/7SrNbVyHDD">
-        <h2 className='pb-12 text-xs lg:text-xs pt-1 text-gray-600 text-center w-full bg-white '>          
-        Coded in the Shadows | 👻 The Shady Class Buidl<br/><br/><b>Solana 2023</b></h2>
-        </a>
+      <a href="https://discord.gg/7SrNbVyHDD">
+        <h2 className='pb-12 text-xs lg:text-xs pt-1 text-gray-600 text-center w-full bg-white '>
+          Coded in the Shadows | 👻 The Shady Class Buidl<br /><br /><b>Solana 2023</b></h2>
+      </a>
     </div>
   )
 
