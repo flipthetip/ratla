@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script async src="https://platform.twitter.com/widgets.js"></script>
       </Html>
     )
   }
