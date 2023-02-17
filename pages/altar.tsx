@@ -280,7 +280,7 @@ const BulkTransfer: NextPage = () => {
           </div>
 
           <div className='justify-center content-center'>
-            <a href="https://twitter.com/intent/tweet?screen_name=bunniezsol&ref_src=twsrc%5Etfw" className="twitter-mention-button" data-size="large" data-text="made me sacrifice my Shadies for Bunniez! #RIPSHADIES Go to [link] to sacrifice!" data-show-count="false">Tweet to #RIPSHADIES</a>
+            <a href="https://twitter.com/intent/tweet?screen_name=bunniezsol&ref_src=twsrc%5Etfw" className="twitter-mention-button" data-size="large" data-text="made me sacrifice my Shadies for Bunniez! #RIPSHADIES Go to https://altar.theshadyclass.xyz/ to sacrifice yours!" data-show-count="false">Tweet to #RIPSHADIES</a>
           </div>
           <br/>
           {/* <div className='w-full mb-6'>
