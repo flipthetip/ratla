@@ -179,8 +179,9 @@ const Home: NextPage = () => {
           </div>
           <div className='w-12/12 lg:w-12/12 align-center justify-center text-center rounded-lg'>
 
-          <h4 className='font-bold justify-center align-center text-black text-xl '>🏆 SACRIFICE BOARD 🏆</h4>
-          
+          <p className='font-bold justify-center align-center text-black text-2xl '>🏆 SACRIFICE BOARD 🏆</p>
+          <br/>
+          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/19/2023 21:00 UTC 🥕</h5>
             <div className=' mb-12 mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:ml-40 lg:mr-40 text-white'>
 
 
@@ -194,18 +195,26 @@ const Home: NextPage = () => {
 
 
           >
-            <a>	Shadow <u>{n.wallet}</u>, you have sacrificed your SHADIES for &nbsp;<span className='indicator-item badge-lg rounded-full bg-gray-900 text-xl text-amber-300 p-2'>{n.bunniez}</span> &nbsp;BUNNiEZ!	🐰</a>
+            <a>	Shadow <u>{n.wallet}</u>, you've sacrificed your SHADIES for &nbsp;<span className='indicator-item badge-lg rounded-full bg-gray-900 text-xl text-amber-300 p-2'>{n.bunniez}</span> &nbsp;BUNNiEZ!	🐰</a>
           
             </div>
         ))
         }
 
+          {/* <a className={styles.code} >	GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76	22 	</a>
+          <a className={styles.code}>	AayTwf3Qf7XpFoiQLVHHzf4L6VFkjBwBwZcKZT5KCrMZ	16	</a>
+          <a className={styles.code}>	8eT4VG9EsBbCzetSeZayhWaRcymkhuiZfAAuVB3t3XRi	10	</a>
+          <a className={styles.code}>	Gnte8z3r4Jwdwm85Y2udyXhu1aZwdgunnT84aSocEtoM	10	</a>
+          <a className={styles.code}>	3Zs4Bb3efDp4tgSZQkJU4G9orrRGMSzzyw2fCtWnHp61	55	</a>
+          <a className={styles.code}>	EsMvk4t684ceDVYiKt7vydtqSHofseErnUje3hXKdWvM	8	</a> */}
             </div>
             {/* <a href="https://discord.gg/7SrNbVyHDD">
         <h2 className='mb-6 text-xs lg:text-xs pt-1 mb-20 text-gray-600 text-center w-full mb-12 rounded-box bg-white '>          
         Coded in the Shadows | 👻 The Shady Class Buidl<br/><br/><b>Solana 2023</b></h2>
         </a> */}
           </div>
+          <br/>
+          <br/>
         </div>
         <br/>
         <br/>
