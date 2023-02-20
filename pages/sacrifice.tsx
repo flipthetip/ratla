@@ -194,7 +194,7 @@ const Home: NextPage = () => {
 
 
           >
-            <a>	Shadow <u>{n.wallet}</u>, you've sacrificed your SHADIES for &nbsp;<span className='indicator-item badge-lg rounded-full bg-gray-900 text-xl text-amber-300 p-2'>{n.bunniez}</span> &nbsp;BUNNiEZ!	🐰</a>
+            <a>	Shadow <u>{n.wallet}</u>, you have sacrificed your SHADIES for &nbsp;<span className='indicator-item badge-lg rounded-full bg-gray-900 text-xl text-amber-300 p-2'>{n.bunniez}</span> &nbsp;BUNNiEZ!	🐰</a>
           
             </div>
         ))
@@ -206,8 +206,6 @@ const Home: NextPage = () => {
         Coded in the Shadows | 👻 The Shady Class Buidl<br/><br/><b>Solana 2023</b></h2>
         </a> */}
           </div>
-          <br/>
-          <br/>
         </div>
         <br/>
         <br/>

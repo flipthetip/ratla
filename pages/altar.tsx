@@ -312,7 +312,7 @@ const BulkTransfer: NextPage = () => {
                   loading={loading}
                   id='btn-copy '
                   type='primary'
-                  className='btn rounded-md max-w-sm hover:text-white hover:bg-gray-900 m-1 tracking-wider w-6/12'
+                  className='btn rounded-md max-w-sm text-black tracking-tight hover:text-white hover:bg-gray-900 m-1 tracking-wider w-6/12'
                   onClick={() => {
                     // setLoading(true)
                     massSend(sending, to)
@@ -325,7 +325,7 @@ const BulkTransfer: NextPage = () => {
               </>
             ) : (
               <>
-                <b>Choose your Shadies to be sent to the altar.</b>
+                <b  className='text-black tracking-tight'>Choose your Shadies to be sent to the altar.</b>
               </>
             )}
           </div>
