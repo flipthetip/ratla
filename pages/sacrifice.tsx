@@ -170,7 +170,7 @@ const Home: NextPage = () => {
               type='text'
 
               placeholder='Wallet search..'
-              className='w-8/12 h-80% input input-bordered rounded-none border-black text-white'
+              className='w-8/12 h-80% input input-bordered rounded-none bg-gray-900 border-black text-white'
               onChange={e => setSearch(e.target.value)}
 
               
