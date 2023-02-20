@@ -34,6 +34,7 @@ const Home: NextPage = () => {
     {	wallet:	'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'	,	bunniez:	'👑 29' 	},
     {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'22'	},
     {	wallet:	'AayTwf3Qf7XpFoiQLVHHzf4L6VFkjBwBwZcKZT5KCrMZ'	,	bunniez:	'16'	},
+    {	wallet:	'HnTgvonz24TEJ1w9VxFPRxC76W8UuQzb9NfqPxXMHvgU'	,	bunniez:	'15'	},
     {	wallet:	'8eT4VG9EsBbCzetSeZayhWaRcymkhuiZfAAuVB3t3XRi'	,	bunniez:	'10'	},
     {	wallet:	'Gnte8z3r4Jwdwm85Y2udyXhu1aZwdgunnT84aSocEtoM'	,	bunniez:	'10'	},
     {	wallet:	'EsMvk4t684ceDVYiKt7vydtqSHofseErnUje3hXKdWvM'	,	bunniez:	'8'	},
@@ -44,6 +45,7 @@ const Home: NextPage = () => {
     {	wallet:	'B4yPWKFtGHESYPDd7sbtJPFLmk2wFZ2xc7pZqLkveAem'	,	bunniez:	'5'	},
     {	wallet:	'DeCSV1e12UXFJCfSmF69J7x2D8WqqdgzZo86vieGCsGh'	,	bunniez:	'4'	},
     {	wallet:	'FQ89H6bkdT6UeWbsfTetqr3hhjSEuVFTa1jZfnVH2wi5'	,	bunniez:	'4'	},
+    {	wallet:	'3RM3iE5KzfM4C5sjKBTX4B2sJDQfxXvByWaTqbT38DRX'	,	bunniez:	'3'	},
     {	wallet:	'EL3ag5cEUAsJi5vTPvHRoPZnSdUnadX7mr6HYsxP937s'	,	bunniez:	'3'	},
     {	wallet:	'FmanVZNoYHHV9Y7u6mL5pCG1PrzT5dNeRBytpehK8Phx'	,	bunniez:	'3'	},
     {	wallet:	'6cxvUcQ9sfeHzDmfb3MMiUMBGeujcyxZT6emS5KKYiZi'	,	bunniez:	'2'	},
@@ -51,6 +53,8 @@ const Home: NextPage = () => {
     {	wallet:	'7sAkopqsohH3W7rFpaUxdbEVQbpZrgVx5hn7XaWuWGA6'	,	bunniez:	'2'	},
     {	wallet:	'8JPu9aGrcDXRKaxMRah3shWB6La9QrbLf9AnCBwjQGfa'	,	bunniez:	'2'	},
     {	wallet:	'HsCbC2swVB66M9Rks1bCPt3HRuwmKa3irSshxApkJCVu'	,	bunniez:	'2'	},
+    {	wallet:	'GpR6UsyRjo3XAiJrBZXs8PpKRcJG4zUPKQrzY24NZvRS'	,	bunniez:	'1'	},
+    {	wallet:	'C37ECSmRPteNd2vvdyfXCRCjQg4MgxxHMY4om2ULxbsC'	,	bunniez:	'1'	},
     {	wallet:	'3jAuCTzsnDhsZktQ2E8T16AsUZjqh26WNHsF29UX3Y58'	,	bunniez:	'1'	},
     {	wallet:	'3KenWUy6TY8N1uXL7FigT3BcyRfpSd8qT8tptA6Vs684'	,	bunniez:	'1'	},
     {	wallet:	'4XQBDWgu2qJYJH4zD8SM8pkCCDeTMwexF3GqXJAikiTW'	,	bunniez:	'1'	},
@@ -181,7 +185,7 @@ const Home: NextPage = () => {
 
           <p className='font-bold justify-center align-center text-black text-2xl '>🏆 SACRIFICE BOARD 🏆</p>
           <br/>
-          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/19/2023 21:00 UTC 🥕</h5>
+          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/20/2023 21:00 UTC 🥕</h5>
             <div className=' mb-12 mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:ml-40 lg:mr-40 text-white'>
 
 
