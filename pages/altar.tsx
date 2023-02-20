@@ -232,7 +232,7 @@ const BulkTransfer: NextPage = () => {
 
       <Head>
         <title>THE ALTAR</title>
-        <meta name='description' content='DeBones getting buried to become.. OhBones. Nuff said..' />
+        <meta name='description' content='Sacrifice your Shadies for Bunniez. Coded in the Shadows | 👻 SHADIES x STUDIOS' />
         <link rel='icon' href='/shsd2.ico' />
       </Head>
 
@@ -374,14 +374,10 @@ const BulkTransfer: NextPage = () => {
         Coded in the Shadows | 👻 The Shady Class Buidl<br/><br/><b>Solana 2023</b></h2>
         </a> */}
           </div>
-
-
-
-
           <br />
           <br />
           <br />
-
+          <br />
           {/* <div className='pl-auto text-center bg-red-700 w-full'>
         <a href="https://discord.gg/b39NXR6">
         <h2 className='text-xs pt-2 pb-2 text-white bg-red-700 rounded-box'>          
@@ -391,9 +387,9 @@ const BulkTransfer: NextPage = () => {
         </div>
 
       </div>
-      <a href="https://discord.gg/7SrNbVyHDD">
-        <h2 className='pb-12 text-xs lg:text-xs pt-1 text-gray-600 text-center w-full bg-white '>
-          Coded in the Shadows | 👻 The Shady Class Buidl<br /><br /><b>Solana 2023</b></h2>
+      <a>
+      <h2 className='font-bold mb-6 text-xs lg:text-xs pt-1 pb-1 text-gray-600 text-center w-full mb-12 rounded-box'>          
+        Coded in the Shadows | 👻 SHADIES x STUDIOS<br/><br/><b>Solana 2023</b></h2>
       </a>
     </div>
   )
