@@ -189,7 +189,7 @@ const Home: NextPage = () => {
 
           <p className='font-bold justify-center align-center text-black text-2xl '>🏆 SACRIFICE BOARD 🏆</p>
           <br/>
-          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/20/2023 21:00 UTC 🥕</h5>
+          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/22/2023 01:00 UTC 🥕</h5>
             <div className=' mb-12 mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:ml-40 lg:mr-40 text-white'>
 
 
