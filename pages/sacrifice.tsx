@@ -31,19 +31,19 @@ const Home: NextPage = () => {
 
   const sacri = [
 
-    {	wallet:	'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'	,	bunniez:	'👑 29' 	},
-    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'22'	},
-    {	wallet:	'2FQvBpFFYc4WSniy5z51jAxV3Xjqe3eEfZje4E6dfvbT'	,	bunniez:	'20'	},
+    {	wallet:	'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'	,	bunniez:	'👑 29 🥇' 	},
+    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'22 🥈'	},
+    {	wallet:	'2FQvBpFFYc4WSniy5z51jAxV3Xjqe3eEfZje4E6dfvbT'	,	bunniez:	'20 🥉'	},
+    {	wallet:	'erDDZCxYTaGYVBUnHqzBeWjzq9FPb1KpeXgcj4AoxLP'	,	bunniez:	'20 🥉'	},
     {	wallet:	'AayTwf3Qf7XpFoiQLVHHzf4L6VFkjBwBwZcKZT5KCrMZ'	,	bunniez:	'16'	},
-    {	wallet:	'erDDZCxYTaGYVBUnHqzBeWjzq9FPb1KpeXgcj4AoxLP'	,	bunniez:	'15'	},
     {	wallet:	'HnTgvonz24TEJ1w9VxFPRxC76W8UuQzb9NfqPxXMHvgU'	,	bunniez:	'15'	},
     {	wallet:	'4RLnYSkYKKNwKTK2fDyhjd1g5HRywxbAZ9kjTMeWtd99'	,	bunniez:	'10'	},
     {	wallet:	'8eT4VG9EsBbCzetSeZayhWaRcymkhuiZfAAuVB3t3XRi'	,	bunniez:	'10'	},
     {	wallet:	'Gnte8z3r4Jwdwm85Y2udyXhu1aZwdgunnT84aSocEtoM'	,	bunniez:	'10'	},
     {	wallet:	'EsMvk4t684ceDVYiKt7vydtqSHofseErnUje3hXKdWvM'	,	bunniez:	'8'	},
+    {	wallet:	'BWZcvSf9THcxBfJ8eiqqEeGhb9Xs47SWBK4un7X31ALg'	,	bunniez:	'7'	},
     {	wallet:	'8KtVpvHLfz7tVXUqVjFbkQSRTS46GPGFfNzJsR7kcNhJ'	,	bunniez:	'6'	},
     {	wallet:	'APZxQkEDVZovNxrk4sQt3FTUHVjZ3F7f4wyXUh3o2xMe'	,	bunniez:	'6'	},
-    {	wallet:	'BWZcvSf9THcxBfJ8eiqqEeGhb9Xs47SWBK4un7X31ALg'	,	bunniez:	'6'	},
     {	wallet:	'6m4JHBytdccTTDUhPVN6YSHVnWA9nXXe4whbFDCFd2RZ'	,	bunniez:	'5'	},
     {	wallet:	'B4yPWKFtGHESYPDd7sbtJPFLmk2wFZ2xc7pZqLkveAem'	,	bunniez:	'5'	},
     {	wallet:	'DeCSV1e12UXFJCfSmF69J7x2D8WqqdgzZo86vieGCsGh'	,	bunniez:	'4'	},
@@ -189,7 +189,7 @@ const Home: NextPage = () => {
 
           <p className='font-bold justify-center align-center text-black text-2xl '>🏆 SACRIFICE BOARD 🏆</p>
           <br/>
-          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/22/2023 01:00 UTC 🥕</h5>
+          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/22/2023 21:00 UTC 🥕</h5>
             <div className=' mb-12 mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:ml-40 lg:mr-40 text-white'>
 
 
