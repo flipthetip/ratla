@@ -31,13 +31,16 @@ const Home: NextPage = () => {
 
   const sacri = [
 
-    {	wallet:	'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'	,	bunniez:	'👑 29 🥇' 	},
-    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'27 🥈'	},
-    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'22 🥉'	},
+    {	wallet:	'GWM1RvEM2YPonCUE1bvdvDR3v2T7szAwaTanRPUEwoHd'	,	bunniez:	'👑 33 🥇' 	},
+    {	wallet:	'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'	,	bunniez:	'29 🥈' 	},
+    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'27 🥉'	},
+    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'22'	},
     {	wallet:	'2FQvBpFFYc4WSniy5z51jAxV3Xjqe3eEfZje4E6dfvbT'	,	bunniez:	'20'	},
     {	wallet:	'erDDZCxYTaGYVBUnHqzBeWjzq9FPb1KpeXgcj4AoxLP'	  ,	bunniez:	'20'	},
     {	wallet:	'AayTwf3Qf7XpFoiQLVHHzf4L6VFkjBwBwZcKZT5KCrMZ'	,	bunniez:	'16'	},
     {	wallet:	'HnTgvonz24TEJ1w9VxFPRxC76W8UuQzb9NfqPxXMHvgU'	,	bunniez:	'15'	},
+    {	wallet:	'4QbxRRgrhXCiQ4NGgXFiAbDCT533wvryyaPd9AcwVM9S'	,	bunniez:	'11'	},
+    {	wallet:	'GVerbUNY8RTFg3qMWsPiYQbPLwDL2X6cejP3Jy2Gyokn'	,	bunniez:	'10'	},
     {	wallet:	'4RLnYSkYKKNwKTK2fDyhjd1g5HRywxbAZ9kjTMeWtd99'	,	bunniez:	'10'	},
     {	wallet:	'8eT4VG9EsBbCzetSeZayhWaRcymkhuiZfAAuVB3t3XRi'	,	bunniez:	'10'	},
     {	wallet:	'Gnte8z3r4Jwdwm85Y2udyXhu1aZwdgunnT84aSocEtoM'	,	bunniez:	'10'	},
@@ -52,12 +55,15 @@ const Home: NextPage = () => {
     {	wallet:	'3RM3iE5KzfM4C5sjKBTX4B2sJDQfxXvByWaTqbT38DRX'	,	bunniez:	'3'	},
     {	wallet:	'EL3ag5cEUAsJi5vTPvHRoPZnSdUnadX7mr6HYsxP937s'	,	bunniez:	'3'	},
     {	wallet:	'FmanVZNoYHHV9Y7u6mL5pCG1PrzT5dNeRBytpehK8Phx'	,	bunniez:	'3'	},
+    {	wallet:	'3KAx7HwdF8BgKmTynmtUTNSkA47QjAHwviFjBL2963eC'	,	bunniez:	'2'	},
     {	wallet:	'6cxvUcQ9sfeHzDmfb3MMiUMBGeujcyxZT6emS5KKYiZi'	,	bunniez:	'2'	},
     {	wallet:	'6ZuTU7BETTLQfHaL2wbQQy9WJPVDpNiDecaH6tim5wXQ'	,	bunniez:	'2'	},
     {	wallet:	'7sAkopqsohH3W7rFpaUxdbEVQbpZrgVx5hn7XaWuWGA6'	,	bunniez:	'2'	},
     {	wallet:	'8JPu9aGrcDXRKaxMRah3shWB6La9QrbLf9AnCBwjQGfa'	,	bunniez:	'2'	},
     {	wallet:	'HsCbC2swVB66M9Rks1bCPt3HRuwmKa3irSshxApkJCVu'	,	bunniez:	'2'	},
     {	wallet:	'C6yMvV8hFdzRmQ6ZtvGKm1PwB15Fxh7BTn66hApjHUYV'	,	bunniez:	'1'	},
+    {	wallet:	'4cPjgKpYU7ryBJp8K191uxjpWFyXqfzdotZhMjPXqysU'	,	bunniez:	'1'	},
+    {	wallet:	'8eT4VG9EsBbCzetSeZayhWaRcymkhuiZfAAuVB3t3XRi'	,	bunniez:	'1'	},
     {	wallet:	'GpR6UsyRjo3XAiJrBZXs8PpKRcJG4zUPKQrzY24NZvRS'	,	bunniez:	'1'	},
     {	wallet:	'C37ECSmRPteNd2vvdyfXCRCjQg4MgxxHMY4om2ULxbsC'	,	bunniez:	'1'	},
     {	wallet:	'3jAuCTzsnDhsZktQ2E8T16AsUZjqh26WNHsF29UX3Y58'	,	bunniez:	'1'	},
@@ -190,7 +196,7 @@ const Home: NextPage = () => {
 
           <p className='font-bold justify-center align-center text-black text-2xl '>🏆 SACRIFICE BOARD 🏆</p>
           <br/>
-          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 02/23/2023 22:00 UTC 🥕</h5>
+          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 03/01/2023 20:00 UTC 🥕</h5>
             <div className=' mb-12 mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:ml-40 lg:mr-40 text-white'>
 
 
