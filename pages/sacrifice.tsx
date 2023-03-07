@@ -33,7 +33,8 @@ const Home: NextPage = () => {
 
     {	wallet:	'GWM1RvEM2YPonCUE1bvdvDR3v2T7szAwaTanRPUEwoHd'	,	bunniez:	'👑 65 🥇' 	},
     {	wallet:	'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'	,	bunniez:	'32 🥈' 	},
-    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'27 🥉'	},
+    {	wallet:	'3KenWUy6TY8N1uXL7FigT3BcyRfpSd8qT8tptA6Vs684'	,	bunniez:	'31 🥉'	},
+    {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'27'	},
     {	wallet:	'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'	,	bunniez:	'22'	},
     {	wallet:	'2FQvBpFFYc4WSniy5z51jAxV3Xjqe3eEfZje4E6dfvbT'	,	bunniez:	'20'	},
     {	wallet:	'erDDZCxYTaGYVBUnHqzBeWjzq9FPb1KpeXgcj4AoxLP'	  ,	bunniez:	'20'	},
@@ -70,7 +71,6 @@ const Home: NextPage = () => {
     {	wallet:	'GpR6UsyRjo3XAiJrBZXs8PpKRcJG4zUPKQrzY24NZvRS'	,	bunniez:	'1'	},
     {	wallet:	'C37ECSmRPteNd2vvdyfXCRCjQg4MgxxHMY4om2ULxbsC'	,	bunniez:	'1'	},
     {	wallet:	'3jAuCTzsnDhsZktQ2E8T16AsUZjqh26WNHsF29UX3Y58'	,	bunniez:	'1'	},
-    {	wallet:	'3KenWUy6TY8N1uXL7FigT3BcyRfpSd8qT8tptA6Vs684'	,	bunniez:	'1'	},
     {	wallet:	'4XQBDWgu2qJYJH4zD8SM8pkCCDeTMwexF3GqXJAikiTW'	,	bunniez:	'1'	},
     {	wallet:	'5gNrzf1r4nFdq8yb94pJCa9q1CwmdD4GsTp2iQGZykyM'	,	bunniez:	'1'	},
     {	wallet:	'6cut9fD3qTbDRFara7sZo7tnBGi6y3unmZKSt96VhcDU'	,	bunniez:	'1'	},
@@ -199,7 +199,7 @@ const Home: NextPage = () => {
 
           <p className='font-bold justify-center align-center text-black text-2xl '>🏆 SACRIFICE BOARD 🏆</p>
           <br/>
-          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 03/06/2023 13:00 UTC 🥕</h5>
+          <h5 className='justify-center align-center text-gray-500 text-lg '>Last Updated: 03/07/2023 20:00 UTC 🥕</h5>
             <div className=' mb-12 mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:ml-40 lg:mr-40 text-white'>
 
 
