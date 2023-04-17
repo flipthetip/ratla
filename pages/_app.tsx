@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
    const network = WalletAdapterNetwork.Mainnet;
 
    // You can also provide a custom RPC endpoint.
-   const endpoint = "https://thrumming-proud-rain.solana-mainnet.discover.quiknode.pro/94b67f2b32ca4ef2de1d961d23a500630c39888f/";
+   const endpoint = "https://solana-mainnet.g.alchemy.com/v2/BjPoe37bPaxgp6n_dN__sQ_cJIIDJ4Vg";
    
 
    // @solana/wallet-adapter-wallets includes all the adapters but supports tree shaking and lazy loading --
