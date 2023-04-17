@@ -81,9 +81,9 @@ const Home: NextPage = () => {
     // {	wallet:	'7VGhCnHjnw5QqGt7Xou35E8uBf43FbYAPvr1q63CUG21'	,	bunniez:	'999'	},
   
 
-    {	wallet:		'GWM1RvEM2YPonCUE1bvdvDR3v2T7szAwaTanRPUEwoHd'		,	bunniez:	82	},
-    {	wallet:		'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'		,	bunniez:	32	},
-    {	wallet:		'3KenWUy6TY8N1uXL7FigT3BcyRfpSd8qT8tptA6Vs684'		,	bunniez:	31	},
+    {	wallet:		'GWM1RvEM2YPonCUE1bvdvDR3v2T7szAwaTanRPUEwoHd'		,	bunniez:	'👑 82 🥇'	},
+    {	wallet:		'27ehuqS1xmfkchkdKAdah3H9FiyJJu4wZ2P2LFpB3fch'		,	bunniez:	'32 🥈'	},
+    {	wallet:		'3KenWUy6TY8N1uXL7FigT3BcyRfpSd8qT8tptA6Vs684'		,	bunniez:	'31 🥉'	},
     {	wallet:		'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'		,	bunniez:	27	},
     {	wallet:		'GueGgggeNaCvkR4eg2PUifNwVi1wNsh9gse5bgTCok76'		,	bunniez:	22	},
     {	wallet:		'2FQvBpFFYc4WSniy5z51jAxV3Xjqe3eEfZje4E6dfvbT'		,	bunniez:	20	},
